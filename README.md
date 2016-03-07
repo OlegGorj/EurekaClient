@@ -10,9 +10,11 @@ Go to Eureka server: `http://eurekaregistry.mybluemix.net` and verify that your 
 
 Run `<app_name>.mybluemix.net`
 
-## What does the consumer do
+## What does HelloWorld client do
 
 It prints the instance IP and port of the Hellow World. 
+
+## How to call this API from another API
 
 If you have more than one instances , you can see load balancer in action when another micro service (consumer) calls this api and see the instance ip and port changed on subsequent refresh of consumer call of `<app_name>.mybluemix.net`
 
