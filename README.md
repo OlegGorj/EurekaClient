@@ -12,7 +12,7 @@ Run `<app_name>.mybluemix.net`
 
 ## What does HelloWorld client do
 
-It prints the instance IP and port of the Hellow World. 
+It prints the instance IP and port of the Hellow World. somehting like Hello World: helloWorld6:169.45.162.108:61841
 
 ## How to call this API from another API
 
