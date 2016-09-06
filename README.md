@@ -1,4 +1,5 @@
 # Netflix_Eureka_Client_HelloWorld
+## Adding section to run on aws
 
 ## Running on bluemix
 `cf push <app_name> -p target/helloworld-0.0.1-SNAPSHOT.war`
