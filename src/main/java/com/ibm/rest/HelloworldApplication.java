@@ -20,7 +20,7 @@ public class HelloworldApplication {
 	DiscoveryClient client;
 
 	@RequestMapping("/")
-	public String hello() {
+	public String hello() { // integrate with Feign
 		ServiceInstance localInstance = client.getLocalServiceInstance();
 		return "Hello World: "+ localInstance.getServiceId()+":"+localInstance.getHost()+":"+localInstance.getPort();
 	}
