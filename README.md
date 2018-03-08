@@ -1,5 +1,8 @@
-# Netflix_Eureka_Client_HelloWorld
+# EurekaClient
+
 ## Adding section to run on aws
+
+todo
 
 ## Running on bluemix
 `cf push <app_name> -p target/helloworld-0.0.1-SNAPSHOT.war`
@@ -19,4 +22,3 @@ It prints the instance IP and port of the Hellow World. somehting like Hello Wor
 
 If you have more than one instances , you can see load balancer in action when another micro service (consumer) calls this api and see the instance ip and port changed on subsequent refresh of consumer call of `<app_name>.mybluemix.net`
 
-Refer to https://github.com/sanketsw/Netflix_Eureka_Client_Consumer for more details on how to consume this API using feign client
